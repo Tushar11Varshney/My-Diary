@@ -1,0 +1,2 @@
+# My-Diary
+As I daily use my phone samsung notes app..to remind myself of the work I have to do.So taking the idea  from the same I made My-diary app using javascript,bootstrap and html and now I have bookmarked it on my browser  and now from the browser only I can have a look of what I have to do.This diary can record a note,delete if not required and  if there is a big list of notes then we can search it too. All changes are welcome.

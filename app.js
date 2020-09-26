@@ -38,7 +38,7 @@ function showItem() {
             <div class="card-body">
               <div class="row">
               <div id="title${id}" class="col-10"><h5 class="card-title" id="titleNote${id}">${key}</h5></div>
-              <div class="col-2"><i class="fa fa-pencil edit" id="${id}"></i></div>
+              <div class="col-2"><i class="fa fa-pencil edit" id="${id}" style="cursor:pointer"></i></div>
               </div>
               <p class="card-text" id="text${id}">${notesObj[key]}</p>
               <div id="del${id}"><a href="#" class="btn btn-primary" onclick="delnote(this.id)" id="${key}">Delete Note</a></div>

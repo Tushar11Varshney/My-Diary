@@ -12,6 +12,9 @@ function initialise() {
     }
     else {
         notesObj = JSON.parse(notes);
+        if (Object.keys(notesObj).length==0) {
+            document.getElementById("empty").innerHTML = "You have zero notes.Use add note to add a new note";
+        }    
     }
     return notesObj;
 }

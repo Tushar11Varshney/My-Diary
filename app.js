@@ -108,4 +108,5 @@ function saveNote(myid) {
     notesObj[newTitle] = newText;
     localStorage.setItem("notes", JSON.stringify(notesObj));
     showItem();
+    location.reload();
 }

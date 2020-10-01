@@ -27,7 +27,7 @@ add.addEventListener("click", function () {
     localStorage.setItem("notes", JSON.stringify(notesObj));
     txtnote.value = "";
     noteTitle.value = "";
-    showItem();
+    location.reload();
 });
 
 function showItem() {
@@ -107,6 +107,5 @@ function saveNote(myid) {
     newText = document.getElementById("newText" + myid).value;
     notesObj[newTitle] = newText;
     localStorage.setItem("notes", JSON.stringify(notesObj));
-    showItem();
     location.reload();
 }
